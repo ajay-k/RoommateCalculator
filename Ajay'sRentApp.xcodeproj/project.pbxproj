@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C879EE181ECE8AA2000E17E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879EE171ECE8AA2000E17E0 /* AppDelegate.swift */; };
+		C879EE1A1ECE8AA2000E17E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879EE191ECE8AA2000E17E0 /* ViewController.swift */; };
+		C879EE1D1ECE8AA2000E17E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C879EE1B1ECE8AA2000E17E0 /* Main.storyboard */; };
+		C879EE1F1ECE8AA2000E17E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C879EE1E1ECE8AA2000E17E0 /* Assets.xcassets */; };
+		C879EE221ECE8AA2000E17E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C879EE201ECE8AA2000E17E0 /* LaunchScreen.storyboard */; };
+		C879EE2D1ECE8AA2000E17E0 /* Ajay_sRentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879EE2C1ECE8AA2000E17E0 /* Ajay_sRentAppTests.swift */; };
+		C879EE381ECE8AA2000E17E0 /* Ajay_sRentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879EE371ECE8AA2000E17E0 /* Ajay_sRentAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C879EE291ECE8AA2000E17E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C879EE0C1ECE8AA2000E17E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C879EE131ECE8AA2000E17E0;
+			remoteInfo = "Ajay'sRentApp";
+		};
+		C879EE341ECE8AA2000E17E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C879EE0C1ECE8AA2000E17E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C879EE131ECE8AA2000E17E0;
+			remoteInfo = "Ajay'sRentApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C879EE141ECE8AA2000E17E0 /* Ajay'sRentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ajay'sRentApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C879EE171ECE8AA2000E17E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C879EE191ECE8AA2000E17E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C879EE1C1ECE8AA2000E17E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C879EE1E1ECE8AA2000E17E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C879EE211ECE8AA2000E17E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C879EE231ECE8AA2000E17E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C879EE281ECE8AA2000E17E0 /* Ajay'sRentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ajay'sRentAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C879EE2C1ECE8AA2000E17E0 /* Ajay_sRentAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ajay_sRentAppTests.swift; sourceTree = "<group>"; };
+		C879EE2E1ECE8AA2000E17E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C879EE331ECE8AA2000E17E0 /* Ajay'sRentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ajay'sRentAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C879EE371ECE8AA2000E17E0 /* Ajay_sRentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ajay_sRentAppUITests.swift; sourceTree = "<group>"; };
+		C879EE391ECE8AA2000E17E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C879EE111ECE8AA2000E17E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C879EE251ECE8AA2000E17E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C879EE301ECE8AA2000E17E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C879EE0B1ECE8AA2000E17E0 = {
+			isa = PBXGroup;
+			children = (
+				C879EE161ECE8AA2000E17E0 /* Ajay'sRentApp */,
+				C879EE2B1ECE8AA2000E17E0 /* Ajay'sRentAppTests */,
+				C879EE361ECE8AA2000E17E0 /* Ajay'sRentAppUITests */,
+				C879EE151ECE8AA2000E17E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C879EE151ECE8AA2000E17E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C879EE141ECE8AA2000E17E0 /* Ajay'sRentApp.app */,
+				C879EE281ECE8AA2000E17E0 /* Ajay'sRentAppTests.xctest */,
+				C879EE331ECE8AA2000E17E0 /* Ajay'sRentAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C879EE161ECE8AA2000E17E0 /* Ajay'sRentApp */ = {
+			isa = PBXGroup;
+			children = (
+				C879EE171ECE8AA2000E17E0 /* AppDelegate.swift */,
+				C879EE191ECE8AA2000E17E0 /* ViewController.swift */,
+				C879EE1B1ECE8AA2000E17E0 /* Main.storyboard */,
+				C879EE1E1ECE8AA2000E17E0 /* Assets.xcassets */,
+				C879EE201ECE8AA2000E17E0 /* LaunchScreen.storyboard */,
+				C879EE231ECE8AA2000E17E0 /* Info.plist */,
+			);
+			path = "Ajay'sRentApp";
+			sourceTree = "<group>";
+		};
+		C879EE2B1ECE8AA2000E17E0 /* Ajay'sRentAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C879EE2C1ECE8AA2000E17E0 /* Ajay_sRentAppTests.swift */,
+				C879EE2E1ECE8AA2000E17E0 /* Info.plist */,
+			);
+			path = "Ajay'sRentAppTests";
+			sourceTree = "<group>";
+		};
+		C879EE361ECE8AA2000E17E0 /* Ajay'sRentAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C879EE371ECE8AA2000E17E0 /* Ajay_sRentAppUITests.swift */,
+				C879EE391ECE8AA2000E17E0 /* Info.plist */,
+			);
+			path = "Ajay'sRentAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C879EE131ECE8AA2000E17E0 /* Ajay'sRentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C879EE3C1ECE8AA2000E17E0 /* Build configuration list for PBXNativeTarget "Ajay'sRentApp" */;
+			buildPhases = (
+				C879EE101ECE8AA2000E17E0 /* Sources */,
+				C879EE111ECE8AA2000E17E0 /* Frameworks */,
+				C879EE121ECE8AA2000E17E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ajay'sRentApp";
+			productName = "Ajay'sRentApp";
+			productReference = C879EE141ECE8AA2000E17E0 /* Ajay'sRentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C879EE271ECE8AA2000E17E0 /* Ajay'sRentAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C879EE3F1ECE8AA2000E17E0 /* Build configuration list for PBXNativeTarget "Ajay'sRentAppTests" */;
+			buildPhases = (
+				C879EE241ECE8AA2000E17E0 /* Sources */,
+				C879EE251ECE8AA2000E17E0 /* Frameworks */,
+				C879EE261ECE8AA2000E17E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C879EE2A1ECE8AA2000E17E0 /* PBXTargetDependency */,
+			);
+			name = "Ajay'sRentAppTests";
+			productName = "Ajay'sRentAppTests";
+			productReference = C879EE281ECE8AA2000E17E0 /* Ajay'sRentAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C879EE321ECE8AA2000E17E0 /* Ajay'sRentAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C879EE421ECE8AA2000E17E0 /* Build configuration list for PBXNativeTarget "Ajay'sRentAppUITests" */;
+			buildPhases = (
+				C879EE2F1ECE8AA2000E17E0 /* Sources */,
+				C879EE301ECE8AA2000E17E0 /* Frameworks */,
+				C879EE311ECE8AA2000E17E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C879EE351ECE8AA2000E17E0 /* PBXTargetDependency */,
+			);
+			name = "Ajay'sRentAppUITests";
+			productName = "Ajay'sRentAppUITests";
+			productReference = C879EE331ECE8AA2000E17E0 /* Ajay'sRentAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C879EE0C1ECE8AA2000E17E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ajay Kumar";
+				TargetAttributes = {
+					C879EE131ECE8AA2000E17E0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					C879EE271ECE8AA2000E17E0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C879EE131ECE8AA2000E17E0;
+					};
+					C879EE321ECE8AA2000E17E0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C879EE131ECE8AA2000E17E0;
+					};
+				};
+			};
+			buildConfigurationList = C879EE0F1ECE8AA2000E17E0 /* Build configuration list for PBXProject "Ajay'sRentApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C879EE0B1ECE8AA2000E17E0;
+			productRefGroup = C879EE151ECE8AA2000E17E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C879EE131ECE8AA2000E17E0 /* Ajay'sRentApp */,
+				C879EE271ECE8AA2000E17E0 /* Ajay'sRentAppTests */,
+				C879EE321ECE8AA2000E17E0 /* Ajay'sRentAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C879EE121ECE8AA2000E17E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C879EE221ECE8AA2000E17E0 /* LaunchScreen.storyboard in Resources */,
+				C879EE1F1ECE8AA2000E17E0 /* Assets.xcassets in Resources */,
+				C879EE1D1ECE8AA2000E17E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C879EE261ECE8AA2000E17E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C879EE311ECE8AA2000E17E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C879EE101ECE8AA2000E17E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C879EE1A1ECE8AA2000E17E0 /* ViewController.swift in Sources */,
+				C879EE181ECE8AA2000E17E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C879EE241ECE8AA2000E17E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C879EE2D1ECE8AA2000E17E0 /* Ajay_sRentAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C879EE2F1ECE8AA2000E17E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C879EE381ECE8AA2000E17E0 /* Ajay_sRentAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C879EE2A1ECE8AA2000E17E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C879EE131ECE8AA2000E17E0 /* Ajay'sRentApp */;
+			targetProxy = C879EE291ECE8AA2000E17E0 /* PBXContainerItemProxy */;
+		};
+		C879EE351ECE8AA2000E17E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C879EE131ECE8AA2000E17E0 /* Ajay'sRentApp */;
+			targetProxy = C879EE341ECE8AA2000E17E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C879EE1B1ECE8AA2000E17E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C879EE1C1ECE8AA2000E17E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C879EE201ECE8AA2000E17E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C879EE211ECE8AA2000E17E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C879EE3A1ECE8AA2000E17E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C879EE3B1ECE8AA2000E17E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C879EE3D1ECE8AA2000E17E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ajay'sRentApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NexGen.Ajay-sRentApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C879EE3E1ECE8AA2000E17E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ajay'sRentApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NexGen.Ajay-sRentApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C879EE401ECE8AA2000E17E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ajay'sRentAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NexGen.Ajay-sRentAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ajay'sRentApp.app/Ajay'sRentApp";
+			};
+			name = Debug;
+		};
+		C879EE411ECE8AA2000E17E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ajay'sRentAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NexGen.Ajay-sRentAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ajay'sRentApp.app/Ajay'sRentApp";
+			};
+			name = Release;
+		};
+		C879EE431ECE8AA2000E17E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Ajay'sRentAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NexGen.Ajay-sRentAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ajay'sRentApp";
+			};
+			name = Debug;
+		};
+		C879EE441ECE8AA2000E17E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Ajay'sRentAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NexGen.Ajay-sRentAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ajay'sRentApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C879EE0F1ECE8AA2000E17E0 /* Build configuration list for PBXProject "Ajay'sRentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C879EE3A1ECE8AA2000E17E0 /* Debug */,
+				C879EE3B1ECE8AA2000E17E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C879EE3C1ECE8AA2000E17E0 /* Build configuration list for PBXNativeTarget "Ajay'sRentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C879EE3D1ECE8AA2000E17E0 /* Debug */,
+				C879EE3E1ECE8AA2000E17E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C879EE3F1ECE8AA2000E17E0 /* Build configuration list for PBXNativeTarget "Ajay'sRentAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C879EE401ECE8AA2000E17E0 /* Debug */,
+				C879EE411ECE8AA2000E17E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C879EE421ECE8AA2000E17E0 /* Build configuration list for PBXNativeTarget "Ajay'sRentAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C879EE431ECE8AA2000E17E0 /* Debug */,
+				C879EE441ECE8AA2000E17E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C879EE0C1ECE8AA2000E17E0 /* Project object */;
+}
