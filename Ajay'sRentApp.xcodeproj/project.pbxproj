@@ -11,9 +11,10 @@
 		C879EE1A1ECE8AA2000E17E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879EE191ECE8AA2000E17E0 /* ViewController.swift */; };
 		C879EE1D1ECE8AA2000E17E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C879EE1B1ECE8AA2000E17E0 /* Main.storyboard */; };
 		C879EE1F1ECE8AA2000E17E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C879EE1E1ECE8AA2000E17E0 /* Assets.xcassets */; };
-		C879EE221ECE8AA2000E17E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C879EE201ECE8AA2000E17E0 /* LaunchScreen.storyboard */; };
 		C879EE2D1ECE8AA2000E17E0 /* Ajay_sRentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879EE2C1ECE8AA2000E17E0 /* Ajay_sRentAppTests.swift */; };
 		C879EE381ECE8AA2000E17E0 /* Ajay_sRentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879EE371ECE8AA2000E17E0 /* Ajay_sRentAppUITests.swift */; };
+		C8852C4E1ED0B5930076DAC7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8852C4D1ED0B5930076DAC7 /* Settings.bundle */; };
+		C8852C501ED0E8D30076DAC7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8852C4F1ED0E8D30076DAC7 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		C879EE191ECE8AA2000E17E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C879EE1C1ECE8AA2000E17E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C879EE1E1ECE8AA2000E17E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C879EE211ECE8AA2000E17E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C879EE231ECE8AA2000E17E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C879EE281ECE8AA2000E17E0 /* Ajay'sRentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ajay'sRentAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C879EE2C1ECE8AA2000E17E0 /* Ajay_sRentAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ajay_sRentAppTests.swift; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		C879EE331ECE8AA2000E17E0 /* Ajay'sRentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ajay'sRentAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C879EE371ECE8AA2000E17E0 /* Ajay_sRentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ajay_sRentAppUITests.swift; sourceTree = "<group>"; };
 		C879EE391ECE8AA2000E17E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8852C4D1ED0B5930076DAC7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = "Ajay'sRentApp/Settings.bundle"; sourceTree = "<group>"; };
+		C8852C4F1ED0E8D30076DAC7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		C879EE0B1ECE8AA2000E17E0 = {
 			isa = PBXGroup;
 			children = (
+				C8852C4D1ED0B5930076DAC7 /* Settings.bundle */,
 				C879EE161ECE8AA2000E17E0 /* Ajay'sRentApp */,
 				C879EE2B1ECE8AA2000E17E0 /* Ajay'sRentAppTests */,
 				C879EE361ECE8AA2000E17E0 /* Ajay'sRentAppUITests */,
@@ -99,9 +102,9 @@
 			children = (
 				C879EE171ECE8AA2000E17E0 /* AppDelegate.swift */,
 				C879EE191ECE8AA2000E17E0 /* ViewController.swift */,
+				C8852C4F1ED0E8D30076DAC7 /* SecondViewController.swift */,
 				C879EE1B1ECE8AA2000E17E0 /* Main.storyboard */,
 				C879EE1E1ECE8AA2000E17E0 /* Assets.xcassets */,
-				C879EE201ECE8AA2000E17E0 /* LaunchScreen.storyboard */,
 				C879EE231ECE8AA2000E17E0 /* Info.plist */,
 			);
 			path = "Ajay'sRentApp";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					C879EE131ECE8AA2000E17E0 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YAYVKAUCLJ;
 						ProvisioningStyle = Automatic;
 					};
 					C879EE271ECE8AA2000E17E0 = {
@@ -232,8 +236,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C879EE221ECE8AA2000E17E0 /* LaunchScreen.storyboard in Resources */,
 				C879EE1F1ECE8AA2000E17E0 /* Assets.xcassets in Resources */,
+				C8852C4E1ED0B5930076DAC7 /* Settings.bundle in Resources */,
 				C879EE1D1ECE8AA2000E17E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8852C501ED0E8D30076DAC7 /* SecondViewController.swift in Sources */,
 				C879EE1A1ECE8AA2000E17E0 /* ViewController.swift in Sources */,
 				C879EE181ECE8AA2000E17E0 /* AppDelegate.swift in Sources */,
 			);
@@ -302,14 +307,6 @@
 				C879EE1C1ECE8AA2000E17E0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C879EE201ECE8AA2000E17E0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C879EE211ECE8AA2000E17E0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -414,11 +411,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YAYVKAUCLJ;
 				INFOPLIST_FILE = "Ajay'sRentApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NexGen.Ajay-sRentApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -426,11 +426,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YAYVKAUCLJ;
 				INFOPLIST_FILE = "Ajay'sRentApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NexGen.Ajay-sRentApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,6 +510,7 @@
 				C879EE3E1ECE8AA2000E17E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C879EE3F1ECE8AA2000E17E0 /* Build configuration list for PBXNativeTarget "Ajay'sRentAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +519,7 @@
 				C879EE411ECE8AA2000E17E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C879EE421ECE8AA2000E17E0 /* Build configuration list for PBXNativeTarget "Ajay'sRentAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				C879EE441ECE8AA2000E17E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
