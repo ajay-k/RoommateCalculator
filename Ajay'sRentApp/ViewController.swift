@@ -10,26 +10,28 @@ import UIKit
 import MessageUI
 
 
+var someVariable:Float = 0
+
+
 class ViewController: UIViewController, UITextFieldDelegate, MFMessageComposeViewControllerDelegate {
 
     //Add Buttons
     var i:Int = 0
+
     
-    @IBOutlet var AjayLabel: UILabel!
     
-    
+    //Textfields
     @IBOutlet var AjayOutput: UITextField!
-    
     @IBOutlet var KaranOutput: UITextField!
-    
-    
     @IBOutlet var AmanOutput: UITextField!
-    
     @IBOutlet var DeepOutput: UITextField!
-    
     @IBOutlet var utilAmount: UITextField!
     
+    
+    //Labels
     @IBOutlet var deepLabel: UILabel!
+    @IBOutlet var AjayLabel: UILabel!
+
     
     @IBAction func resetButton(_ sender: Any) {
         
@@ -54,16 +56,10 @@ class ViewController: UIViewController, UITextFieldDelegate, MFMessageComposeVie
     
     @IBAction func CalcButton(_ sender: Any) {
 
-        var someVariable:Float
         
-        
-        if((utilAmount.text?.isEmpty)!){
-            someVariable = 0
-            utilAmount.text = String(0)
-
-        } else {
-            //utilAmount.text = String(5)
+        if(utilAmount.text != nil){
             someVariable = (Float(utilAmount.text!)!)
+
         }
         
         
@@ -73,16 +69,18 @@ class ViewController: UIViewController, UITextFieldDelegate, MFMessageComposeVie
         var Deep:Float = 0
         var Karan:Float = 0
         var Aman:Float = 0
-        let rentPerPerson:Float = 400
         let internet:Float = 15
         let parkingCharges:Float = 50.0 / 3
+        let rentPerPerson:Float = (Float(rentCostAmount))! / (Float(numOfRoomates))!
 
+        
 
         
         Ajay = Ajay + parkingCharges + rentPerPerson + (utilCharg / 4) + internet
         Karan = Karan + parkingCharges + (utilCharg / 4) + rentPerPerson + internet
         Aman = Aman + rentPerPerson + (utilCharg / 4) + internet
         Deep = Deep + parkingCharges + rentPerPerson + (utilCharg / 4) - (internet * 3)
+
         
         
         AjayOutput.text  = String(format: "%.2f", Ajay)
@@ -103,9 +101,24 @@ class ViewController: UIViewController, UITextFieldDelegate, MFMessageComposeVie
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+//    override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
+//        if segue.identifier == "sendDataSeg" {
+//            let secondViewController: secondViewController = segue.destinationViewController as! SendingVC
+//            secondViewController.delegate = self
+//        }
+//    }
+//    
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        //utilAmount.text = numOfRoomates;
+    }
+
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+
         let userDefaults = UserDefaults.standard
         let userName = userDefaults.string(forKey: "name_preference")
         print("user name = \(String(describing: userName))")
