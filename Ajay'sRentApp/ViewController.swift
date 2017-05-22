@@ -25,14 +25,14 @@ class ViewController: UIViewController, UITextFieldDelegate, MFMessageComposeVie
     @IBOutlet var KaranOutput: UITextField!
     @IBOutlet var AmanOutput: UITextField!
     @IBOutlet var DeepOutput: UITextField!
-    @IBOutlet var utilAmount: UITextField!
+    @IBOutlet var utilAmount: UITextField! = nil
     
     
     //Labels
     @IBOutlet var deepLabel: UILabel!
     @IBOutlet var AjayLabel: UILabel!
 
-    
+
     @IBAction func resetButton(_ sender: Any) {
         
         if(AjayOutput.text != nil){
@@ -41,7 +41,7 @@ class ViewController: UIViewController, UITextFieldDelegate, MFMessageComposeVie
             DeepOutput.text  = nil
             KaranOutput.text  = nil
             AmanOutput.text  = nil
-            utilAmount.text = nil
+            //utilAmount.text = nil
         }
         
         i = i + 1
@@ -56,8 +56,13 @@ class ViewController: UIViewController, UITextFieldDelegate, MFMessageComposeVie
     
     @IBAction func CalcButton(_ sender: Any) {
 
-        
+
+//        if(utilAmount.text == nil){
+//            let temp:Float = 0
+//            utilAmount.text = (String(temp))
+//        }
         if(utilAmount.text != nil){
+            someVariable = 0
             someVariable = (Float(utilAmount.text!)!)
 
         }
@@ -71,15 +76,41 @@ class ViewController: UIViewController, UITextFieldDelegate, MFMessageComposeVie
         var Aman:Float = 0
         let internet:Float = 15
         let parkingCharges:Float = 50.0 / 3
-        let rentPerPerson:Float = (Float(rentCostAmount))! / (Float(numOfRoomates))!
+        var rentPerPerson:Float = 0
 
+        if((rentCostAmount != "") || ((numOfRoomates != ""))){
+            rentPerPerson = (Float(rentCostAmount))! / (Float(numOfRoomates))!
+        }
+        
         
 
-        
-        Ajay = Ajay + parkingCharges + rentPerPerson + (utilCharg / 4) + internet
-        Karan = Karan + parkingCharges + (utilCharg / 4) + rentPerPerson + internet
-        Aman = Aman + rentPerPerson + (utilCharg / 4) + internet
-        Deep = Deep + parkingCharges + rentPerPerson + (utilCharg / 4) - (internet * 3)
+        if(tog1Value){
+             Ajay = Ajay + parkingCharges + rentPerPerson + (utilCharg / 4) + internet
+        } else {
+                Ajay = Ajay + rentPerPerson + (utilCharg / 4) + internet
+        }
+       
+        if(tog2Value){
+            Karan = Karan + parkingCharges + (utilCharg / 4) + rentPerPerson + internet
+
+        }else{
+            Karan = Karan  + (utilCharg / 4) + rentPerPerson + internet
+
+        }
+        if(tog3Value){
+            Aman = Aman + parkingCharges + rentPerPerson + (utilCharg / 4) + internet
+
+        }else {
+            Aman = Aman + rentPerPerson + (utilCharg / 4) + internet
+
+        }
+        if(tog4Value){
+            Deep = Deep + parkingCharges + rentPerPerson + (utilCharg / 4) - (internet * 3)
+
+        }else{
+            Deep = Deep + rentPerPerson + (utilCharg / 4) - (internet * 3)
+
+        }
 
         
         
@@ -95,7 +126,7 @@ class ViewController: UIViewController, UITextFieldDelegate, MFMessageComposeVie
         super.viewDidLoad()
         self.utilAmount.delegate = self
         self.utilAmount.keyboardType = UIKeyboardType.decimalPad
-        UserDefaults.standard.register(defaults: [String: Any]())
+        //UserDefaults.standard.register(defaults: [String: Any]())
 
         
         // Do any additional setup after loading the view, typically from a nib.

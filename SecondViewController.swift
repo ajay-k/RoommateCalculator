@@ -7,25 +7,39 @@ protocol DataSentDelegate {
 
 var numOfRoomates = ""
 var rentCostAmount = ""
+var tog1Value:Bool = true
+var tog2Value:Bool = true
+var tog3Value:Bool = true
+var tog4Value:Bool = true
+
 
 class SecondViewController: UITableViewController {
     
     
     var someVariable:Int = 0
+    var delegate: DataSentDelegate? = nil
+
+    //Steppers
+    @IBOutlet var stepper: UIStepper!
 
     
-    
+    //Textfields
     @IBOutlet var rentCostTextField: UITextField!
-    @IBOutlet var stepper: UIStepper!
     @IBOutlet var numOfMates: UITextField!
     
     
-    var delegate: DataSentDelegate? = nil
+    //Toggles
 
+    @IBOutlet var togMate1: UISwitch!
+    @IBOutlet var togMate2: UISwitch!
+    @IBOutlet var togMate3: UISwitch!
+    @IBOutlet var togMate4: UISwitch!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         defaultValues()
+        print(togMate1.isOn)
        //         Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -56,6 +70,53 @@ class SecondViewController: UITableViewController {
         numOfMates.text = String(Int(sender.value))
     }
     
+    @IBAction func tog1Action(_ sender: UISwitch) {
+        
+        UserDefaults.standard.set(sender.isOn, forKey: "switch1State")
+        if(!(sender.isOn)){
+            tog1Value = false
+            //print(tog1Value)
+        }else {
+            tog1Value = true
+            //print(tog1Value)
+        }
+    }
+
+    @IBAction func tog2Action(_ sender: UISwitch) {
+        UserDefaults.standard.set(sender.isOn, forKey: "switch2State")
+        if(!(sender.isOn)){
+            tog2Value = false
+            //print(tog1Value)
+        }else {
+            tog2Value = true
+            //print(tog1Value)
+        }
+
+    }
+    
+    @IBAction func tog3Action(_ sender: UISwitch) {
+        UserDefaults.standard.set(sender.isOn, forKey: "switch3State")
+        if(!(sender.isOn)){
+            tog3Value = false
+            //print(tog1Value)
+        }else {
+            tog3Value = true
+            //print(tog1Value)
+        }
+    }
+    
+    @IBAction func tog4Action(_ sender: UISwitch) {
+        UserDefaults.standard.set(sender.isOn, forKey: "switch4State")
+        if(!(sender.isOn)){
+            tog4Value = false
+            //print(tog1Value)
+        }else {
+            tog4Value = true
+            //print(tog1Value)
+        }
+
+    }
+    
     @IBAction func saveBtnWasPressed(_ sender: Any) {
     
         if(numOfMates.text != nil){
@@ -73,6 +134,8 @@ class SecondViewController: UITableViewController {
             UserDefaults.standard.set(rentCostTextField.text, forKey: "rentCostText")
             performSegue(withIdentifier: "segue", sender: self)
         }
+        
+       
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -92,7 +155,48 @@ class SecondViewController: UITableViewController {
             rentCostTextField.text = y
             rentCostAmount = y
         }
+        
+        togMate1.isOn =  UserDefaults.standard.bool(forKey: "switch1State")
+        togMate2.isOn =  UserDefaults.standard.bool(forKey: "switch2State")
+        togMate3.isOn =  UserDefaults.standard.bool(forKey: "switch3State")
+        togMate4.isOn =  UserDefaults.standard.bool(forKey: "switch4State")
+
+        
     }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        let inverseSet = NSCharacterSet(charactersIn:"0123456789").inverted
+        
+        let components = string.components(separatedBy: inverseSet)
+        
+        let filtered = components.joined(separator: "")
+        
+        if filtered == string {
+            return true
+        } else {
+            if string == "." {
+                let countdots = textField.text!.components(separatedBy:".").count - 1
+                if countdots == 0 {
+                    return true
+                }else{
+                    if countdots > 0 && string == "." {
+                        return false
+                    } else {
+                        return true
+                    }
+                }
+            }else{
+                return false
+            }
+        }
+    }
+    
+//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//        utilAmount.resignFirstResponder()
+//        CalcButton(self)
+//        return(true)
+//    }
+//
     
     
 

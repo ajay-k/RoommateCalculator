@@ -113,8 +113,8 @@
 		C879EE2B1ECE8AA2000E17E0 /* Ajay'sRentAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				C879EE2C1ECE8AA2000E17E0 /* Ajay_sRentAppTests.swift */,
 				C879EE2E1ECE8AA2000E17E0 /* Info.plist */,
+				C879EE2C1ECE8AA2000E17E0 /* Ajay_sRentAppTests.swift */,
 			);
 			path = "Ajay'sRentAppTests";
 			sourceTree = "<group>";
