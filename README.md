@@ -18,7 +18,7 @@ Simply enter in the utilities(Electric, Water, Garbage..etc) in the textfield la
 
 
 
-# Settings Menu Explained 
+# Settings Menu 
 **_Number of Roommates:_** Enter in the number of total roommates
 
 **_Default Rent Cost:_** Enter in the total rent costs 
