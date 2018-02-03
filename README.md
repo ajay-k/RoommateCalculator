@@ -1,4 +1,4 @@
-# RoommateCalculator
+# Roommate Calculator
 
 <img width="360" alt="screen shot 2018-01-30 at 2 50 10 am" src="https://user-images.githubusercontent.com/1754248/35767821-d33cce64-08a7-11e8-8bdf-62fcafef570f.png"><img width="362" alt="screen shot 2018-01-30 at 2 50 19 am" src="https://user-images.githubusercontent.com/1754248/35767868-6cb635a8-08a8-11e8-9903-16e892147929.png">
 
